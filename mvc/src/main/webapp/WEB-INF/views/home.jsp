@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="todo.css">
   </head>
   <body>
-    <h2>Todo321111111!!</h2>
-    <h2>HI</h2>
+    <h2>Todo!!!</h2>
     <div ng-controller="TodoListController as todoList">
       <span>{{todoList.remaining()}} of {{todoList.todos.length}} remaining</span>
       [ <a href="" ng-click="todoList.archive()">archive</a> ]
